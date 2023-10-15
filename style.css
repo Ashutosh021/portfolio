@@ -161,7 +161,7 @@ nav ul li a:hover {
     border: 2px solid #ff004f;
 }
 
-#skill table tr td{
+#skill tr td{
     text-align:center;
     padding: 20px;
     font-size: 1.2rem;
@@ -481,20 +481,12 @@ nav ul li a:hover {
         padding: 7px;
         font-size: 12px;
     }
-    /* #skill div{
-        display: flex;
-        justify-content: space-between;
-        margin-top: 10%;
-        font-size: 1.2rem;
-        color: #ff004f;
+    #skill{
+        padding: 0;
+        border: 2px solid red;
     }
-    
-    #skill div span{
-        padding: 10px;
-
-    } */
-    #skill table tr td{
-        padding: 10px;
+    #skill tr td{
+        padding: 6px;
     }
     #mywork {
         margin-top: 5%;
