@@ -220,20 +220,20 @@ nav ul li a:hover {
 
 
 /* Work */
-#mywork {
+#project {
 
     width: 100%;
     align-items: center;
 }
 
-#mywork .sub-title{
+#project .sub-title{
     margin-bottom: 40px;
 }
-.work {
+.project {
     padding: 30px 20px;
 }
 
-.work-block {
+.project-block {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 40px;
@@ -241,7 +241,7 @@ nav ul li a:hover {
     margin: 5px;
 }
 
-.work-block div {
+.project-block div {
     background: #262626;
     padding: 40px;
     font-size: 13px;
@@ -249,18 +249,18 @@ nav ul li a:hover {
     border-radius: 10px;
     transition: background 0.5s, transform 0.5s;
 }
-.work-block div p{
+.project-block div p{
     font-size: 1rem;
 }
 
-.work-block div img {
+.project-block div img {
     border-radius: 5%;
     width: 90%;
     margin-left: 5%;
     margin-bottom: 5%;
 }
 
-.work-block div a {
+.project-block div a {
     border: 1px solid white;
     border-radius: 15%;
     font-size: 20px;
@@ -276,19 +276,19 @@ nav ul li a:hover {
     display: inline-block;
 }
 
-.work-block div a:hover {
+.project-block div a:hover {
     color: #ff004f;
     background-color: white;
     border: 1px solid black;
 }
 
 
-.work-block div:hover {
+.project-block div:hover {
     background-color: #ff004f;
     transform: translate(10px);
 }
 
-.work-block div h2 {
+.project-block div h2 {
     font-size: 1.8rem;
     font-weight: 500;
     margin-bottom: 20px;
@@ -473,6 +473,7 @@ nav ul li a:hover {
     .about-img {
         flex-basis: 100%;
         margin-bottom: 10%;
+        display: none;
     }
     .about-right{
         flex-basis: 100%;
@@ -488,7 +489,7 @@ nav ul li a:hover {
         padding: 10px 0;
         text-align: start;
     }
-    #mywork {
+    #project {
         margin-top: 5%;
     }
 
